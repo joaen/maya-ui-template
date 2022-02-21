@@ -11,7 +11,7 @@ def maya_main_window():
     if sys.version_info.major >= 3:
         return wrapInstance(int(main_window), QtWidgets.QWidget)
     else:
-        return wrapInstance(long(main_window), QtWidgets.QWidget)
+        return wrapInstance(long(main_window), QtWidgets.QWidget) # type: ignore
 
 class TemplateToolWindow(QtWidgets.QDialog):
     def __init__(self):
