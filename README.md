@@ -9,3 +9,7 @@ Template for creating a simple tool window in Maya, using Pyside2/QT.
 import maya_ui_template
 maya_ui_template.start()
 ```
+
+![Image](https://github.com/joaen/joaen.github.io/blob/main/images/template_tool.png)
+
+
